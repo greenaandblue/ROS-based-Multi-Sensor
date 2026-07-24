@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# ROS / catkin
+devel/
+build/
+*.pyc
+
+# Data
+*.csv
+!hardware/HU108/test_data.csv
+!hardware/CZ028_IM948/test_data.csv
+
+# OS
+.DS_Store
